@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      .parallax {
+        /* The image used */
+        background-image: url("img0.jpg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+     
+    </style>
+    <title>Rj</title>
+  </head>
+  <body>
+      <div class="navbar-fixed">
+
+          <nav class="navbar-fixed nav-wrapper">
+              <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+              </a>
+              <a href="#" class="brand-logo red-text">
+                  <img src="icon.png" style="margin-top: 0px;" width="62" height="62">
+                  <!-- <img src="" alt=""> -->
+              </a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home">Product</a></li>
+                <li><a href="#image">Contact Us</a></li>
+                <li><a href="#footer">About Us</a></li>
+              </ul>
+              <ul class="sidenav red white-text" id="mobile-menu">
+                <li><a href="">Products</a></li>
+                <li><a href="#home">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+          </nav>
+      </div>
+
+    <!-- <section>
+        
+        <img src="images/images(13).jpg" alt="">
+    </section> -->
+
+    <section class="">
+      <div class="parallax"></div>
+
+      <div style="height: 1000px; background-color: red; font-size: 36px;">
+        Scroll Up and Down this page to see the parallax scrolling effect. This
+        div is just here to enable scrolling. Tip: Try to remove the
+        background-attachment property to remove the scrolling effect.
+      </div>
+    </section>
+
+    <section class="container">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea consequuntur
+      expedita minima labore commodi odio! Minus rerum architecto assumenda non,
+      reiciendis rem quae officiis veniam ducimus ullam repellendus pariatur,
+      sint eos modi soluta fugit, maiores optio? Ratione obcaecati, sunt, neque
+      hic architecto alias praesentium aliquid repellat corporis earum
+      cupiditate odio? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Ea consequuntur expedita minima labore commodi odio! Minus rerum
+      architecto assumenda non, reiciendis rem quae officiis veniam ducimus
+      ullam repellendus pariatur, sint eos modi soluta fugit, maiores optio?
+      Ratione obcaecati, sunt, neque hic architecto alias praesentium aliquid
+      repellat corporis earum cupiditate odio? Lorem ipsum dolor, sit amet
+      consectetur adipisicing elit. Ea consequuntur expedita minima labore
+      commodi odio! Minus rerum architecto assumenda non, reiciendis rem quae
+      officiis veniam ducimus ullam repellendus pariatur, sint eos modi soluta
+      fugit, maiores optio? Ratione obcaecati, sunt, neque hic architecto alias
+      praesentium aliquid repellat corporis earum cupiditate odio? Lorem ipsum
+      dolor, sit amet consectetur adipisicing elit. Ea consequuntur expedita
+      minima labore commodi odio! Minus rerum architecto assumenda non,
+      reiciendis rem quae officiis veniam ducimus ullam repellendus pariatur,
+      sint eos modi soluta fugit, maiores optio? Ratione obcaecati, sunt, neque
+      hic architecto alias praesentium aliquid repellat corporis earum
+      cupiditate odio?
+    </section>
+  </body>
+
+  <script src="js/materialize.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var elems = document.querySelectorAll(".sidenav");
+      var instances = M.Sidenav.init(elems, { edge: "left" });
+    });
+
+    
+  </script>
+</html>
